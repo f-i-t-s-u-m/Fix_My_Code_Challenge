@@ -5,6 +5,9 @@
 class Square():
     """ square class"""
 
+    width = 0
+    height = 0
+
     def __init__(self, *args, **kwargs):
         """ init here """
         for key, value in kwargs.items():
